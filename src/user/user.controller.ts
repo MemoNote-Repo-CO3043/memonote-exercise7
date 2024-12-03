@@ -218,7 +218,7 @@ export class UserController {
     status: 500,
     description: 'Internal Server Error',
   })
-  @ApiQuery({
+  @ApiParam({
     name: 'username',
     type: String,
     required: true,
